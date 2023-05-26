@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <script src="./assets/js/scripts.js" defer></script>
+    <title>Dictionary</title>
+</head>
+<body>
+
+    <div class="app">
+        <div class="main">
+            <h1>Dictionary</h1>
+
+            <form class="form" id="form">
+                <div class="form__group">
+                    <input id="word__input" type="text" name="word" placeholder="Type a word" autocomplete="off" value="">
+                </div>
+                <button type="submit">Search</button>
+            </form>
+            <div class="error" id="error"></div>
+            <div class="results" id="results">
+                <div class="results__info">
+                    <div class="results__word" id="results__word"></div>
+                    <div class="results__sound" id="results__sound">
+                        <img src="./assets/img/sound.png" alt="sound image">
+                    </div>
+                </div>
+                <div class="results__list" id="results__list"></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
